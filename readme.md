@@ -19,7 +19,3 @@
 This repository is an **academic resource** for the OOP course. It contains **learning materials, lab tasks, and grading records** for enrolled students.
 
 ---
-
-```
-
-```
