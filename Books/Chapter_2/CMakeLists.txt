@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 4.1)
+project(Chapter2)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(Ch2_1 q1.cpp)
+add_executable(Ch2_3 q3.cpp)
+add_executable(Ch2_4 q4.cpp)
+add_executable(Ch2_5 q5.cpp)
+add_executable(Ch2_6 q6.cpp)
+add_executable(Ch2_7 q7.cpp)
+add_executable(Ch2_8 q8.cpp)
+add_executable(Ch2_9 q9.cpp)
+add_executable(Ch2_10 q10.cpp)
+add_executable(Ch2_11 q11.cpp)
+add_executable(Ch2_12 q12.cpp)
