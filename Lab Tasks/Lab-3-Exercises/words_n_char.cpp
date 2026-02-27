@@ -6,6 +6,7 @@ int main() {
     char x;
     int nwords = 1, nchars = 0;
     cout<<"Enter the sentence:"<<endl;
+    cin.get(x);
     while (cin.get(x) && x!= '\n') {
         if (x == ' ')
             nwords++;
