@@ -35,9 +35,9 @@ int main() {
             break;
     }
     cout << " and is a ";
-    if (c3 % 2)
-        cout<<"male";
+    if (c3 % 2==0)
+        cout<<"Female";
     else
-        cout<<"female";
+        cout<<"Male";
     return 0;
 }
