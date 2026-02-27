@@ -16,15 +16,19 @@ int main() {
     while (cin.get(move) && move!= '\n') {
         switch (move) {
             case 'u':
+            case 'U':    
                 pos.y++;
                 break;
             case 'd':
-                pos.y--;
-                break;
+            case 'D':
+            pos.y--;
+            break;
             case 'l':
+            case 'L':
                 pos.x--;
                 break;
             case 'r':
+            case 'R':
                 pos.x++;
                 break;
             default:
